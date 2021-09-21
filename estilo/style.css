@@ -1,0 +1,1272 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+}
+
+/**Boot CSS**/
+
+html, body {
+	height: 100%;
+}
+
+input {
+	border: 0;
+}
+
+img {
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+}
+
+.center {
+	max-width: 1380px;
+	padding: 0 4%;
+	margin: 0 auto;
+
+}
+
+.w33 {
+	width: 33.3%;
+	padding: 0 10px;
+}
+
+.w50 {
+	width: 50%;
+	padding: 0 10px;
+}
+
+.w100 {
+	width: 100%;
+	max-width: none;
+}
+
+.left{
+	float: left;
+
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+
+}
+
+.mobile {
+	display: none;
+}
+
+.desktop {
+	display: block;
+}
+
+.absolute {
+	 position: absolute;
+}
+
+.bottom {
+	left: 0;
+	bottom: -1px;
+}
+
+.preencher {
+	width: 100%;
+	height: 150px;
+}
+
+/**Menu Serviços**/
+
+.fa-angle-down {
+	margin-left: 10px;
+	transition: all ease 0.5s;
+}
+
+nav.desktop nav.menu-items {
+	display: none;
+	z-index: 1;
+	position: absolute;
+}
+
+nav.desktop nav.menu-items ul {
+	z-index: 7;
+	top: 10px;
+	cursor: pointer;
+	left: -30px;
+	box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.5);
+	background: rgb(0, 95, 168);
+	border-bottom: 1px solid rgb(0, 100, 168);
+	max-width: 150px;
+}
+
+nav.desktop nav.menu-items li {
+	border-top: 1px solid #fff;
+	padding: 0;
+	width: 100%;
+}
+
+nav.desktop nav.menu-items li a {
+	text-decoration: none;
+	padding: 8px;
+	display: block;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+nav.desktop nav.menu-items li:hover {
+	background: #5f99d0;
+
+}
+
+nav.desktop nav.menu-items a {
+	display: block;
+	color: #fff;
+	padding: 0;
+	text-align: center;
+}
+
+/**Página Serviços Single**/
+
+section#servicos-single-main .container {
+	width: 60%;
+	padding: 60px 0;
+}
+
+section#servicos-single-main .container .image-container {
+	display: flex;
+}
+
+section#servicos-single-main .container .image-container img {
+	object-fit: contain;
+	margin: auto;
+	padding: 30px 0;
+}
+
+section#servicos-single-main .container .text h2 {
+	font-weight: 400;
+	font-size: 35px;
+	color: rgb(24, 64, 112);
+	margin: 10px 0;
+	text-align: center;
+}
+
+section#servicos-single-main .container .text p {
+	text-align: justify;
+}
+
+section#servicos-single-main .container .text b {
+	text-align: center;
+}
+
+section#servicos-single-main .consulta-content .text span {
+	font-weight: 400;
+	font-size: 35px;
+	color: rgb(0, 100, 168);
+}
+
+section#servicos-single-main .consulta-content .text p  {
+	color: rgb(24, 64, 112);
+	font-size: 18px;
+	font-weight: 300;
+	padding: 20px 0;
+}
+ 
+section#servicos-single-main .consulta-content {
+	padding: 40px 0;
+	background-color: rgba(244, 244, 244, 1);
+}
+
+section#servicos-single-main .consulta-content input[type=text], section#servicos-single-main .consulta-content input[type=email], section#servicos-single-main .consulta-content input[type=tel] {
+	width: 100%;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	max-width: 800px;
+	height: 40px;
+	padding-left: 8px;
+	font-size: 16px;
+	color: #444;
+}
+
+section#servicos-single-main .consulta-content textarea {
+	width: 100%;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	max-width: 800px;
+	height: 120px;
+	padding: 8px;
+	padding-left: 8px;
+	font-size: 16px;
+	resize: vertical;
+	color: #444;
+}
+
+section#servicos-single-main .consulta-content input[type=submit]{
+	background: white;
+	border: 3px solid rgb(24, 64, 112);
+	width: 30%;
+	height: 60px;
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(24, 64, 112);
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+section#servicos-single-main .consulta-content input[type=submit]:hover {
+	color: white;
+	background: rgb(24, 64, 112);
+}
+
+section#servicos-single-main .consulta-content .servicos-map {
+	padding: 50px;
+}
+
+/**Página Serviços Main**/
+
+section#servicos-main .background-impar {
+	background: rgba(244, 244, 244, 1);
+	width: 100%;
+}
+
+section#servicos-main .background-par {
+	background: rgba(256, 256, 256, 1);
+	width: 100%;
+}
+
+section#servicos-main .title {
+	text-align: center;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	position: absolute;
+	width: 100%;
+	top: 25%;
+	left: 50%;
+}
+
+section#servicos-main .title h2 {
+	font-weight: 700;
+	font-size: 40px;
+	color: rgb(51, 51, 51);
+}
+
+section#servicos-main .title .divider {
+	border-bottom: 2px solid rgb(0, 95, 168);
+	max-width: 54px;
+	padding-top: 17px;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	position: absolute;
+	width: 100%;
+	top: 110%;
+	left: 50%;
+}
+
+section#servicos-main .servicos-content .element {
+	width: 80%;
+	padding: 120px 0;
+}
+
+section#servicos-main .servicos-content .element .image-container img {
+	height: 100%;
+	width: 90%;
+    max-height: 700px;
+	max-width: none;
+	object-fit: contain;
+}
+
+section#servicos-main .servicos-content .element .text p {
+	width: 80%;
+}
+
+section#servicos-main .servicos-content .element a {
+	color: white;
+	border: 1px solid rgb(0, 100, 168);
+	background-color: rgb(0, 100, 168);
+	text-decoration: none;	
+	text-align: center;
+	display: block;
+	margin-top: 20px;
+	height: 30px;
+	line-height: 0;
+	width: 123px;
+	padding: 20px;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+section#servicos-main .servicos-content .element a:hover {
+	background-color: #5f99d0;
+	border-color: #5f99d0;
+}
+
+section#servicos-main .servicos-content .element h3 {
+	font-weight: 700;
+	color: rgb(51, 51, 51);	
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+section#servicos-main .servicos-content .element p{
+	font-weight: 300;
+	font-size: 17px;
+}
+
+
+section#servicos-main .consulta-content {
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+	padding-top: 40px;
+}
+
+section#servicos-main .consulta-content .form-container {
+	padding: 40px;
+}
+
+section#servicos-main .consulta-content .text span{
+	font-weight: 400;
+	font-size: 35px;
+	color: white;
+}
+
+section#servicos-main .consulta-content .text p {
+	color: white;
+	font-size: 18px;
+	font-weight: 300;
+	padding: 20px 0;
+}
+
+section#servicos-main .consulta-content input[type=text], section#servicos-main .consulta-content input[type=email], section#servicos-main .consulta-content input[type=tel] {
+	width: 100%;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	max-width: 800px;
+	height: 40px;
+	padding-left: 8px;
+	font-size: 16px;
+	color: #444;
+}
+
+section#servicos-main .consulta-content textarea {
+	width: 100%;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	max-width: 800px;
+	height: 120px;
+	padding: 8px;
+	padding-left: 8px;
+	font-size: 16px;
+	resize: vertical;
+	color: #444;
+}
+
+section#servicos-main .consulta-content input[type=submit]{
+	background: white;
+	border: 3px solid rgb(24, 64, 112);
+	width: 100%;
+	height: 60px;
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(24, 64, 112);
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+section#servicos-main .consulta-content input[type=submit]:hover {
+	color: white;
+	background: rgb(24, 64, 112);
+}
+
+section#servicos-main input#whatsapp-consulta{
+	font-size: 40px;
+	font-family: FontAwesome !important;
+	color: #128c7e;
+	width: 100%;
+	border-color: #128c7e;
+	outline:none; 
+}
+
+section#servicos-main input#whatsapp-consulta:hover {
+	background-color: #128c7e;
+	color: white;
+	border-color: #128c7e;
+	border-radius: 100px;
+}
+
+
+section#servicos-main .consulta-content img {
+    height: 100%;
+    max-height: 700px;
+	max-width: none;
+	object-fit: contain;
+	margin: -5px;
+	
+}
+
+/**Página Contato**/
+
+section#contato-main .container {
+	padding: 40px 4.2%;
+}
+
+section#contato-main .background {
+	width: 100%;
+	background: linear-gradient(to top, rgba(0,0,0,0), rgba(244, 244, 244, 1));
+}
+
+section#contato-main .container .title {
+	width: 100%;
+}
+
+section#contato-main .container .title h2, section#contato-main .container .localizacao .title h2 {
+	font-weight: 700;
+	font-size: 40px;
+	color: rgb(51, 51, 51);
+}
+
+section#contato-main .container .title .text {
+	margin-top: 25px;
+	line-height: 150%;
+}
+
+section#contato-main .container .title .divider, section#contato-main .container .localizacao .title .divider {
+	border-bottom: 2px solid rgb(0, 95, 168);
+	max-width: 54px;
+	padding-top: 17px;
+	width: 100%;
+	margin-left: 2px;
+	left: 65%;
+}
+
+section#contato-main .container .form input[type=text], section#contato-main .container .form input[type=email], section#contato-main .container .form input[type=tel] {
+	width: 100%;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	max-width: 800px;
+	height: 40px;
+	padding-left: 8px;
+	font-size: 16px;
+	color: #444;
+}
+
+section#contato-main .container .form textarea {
+	width: 100%;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	max-width: 800px;
+	height: 120px;
+	padding: 8px;
+	padding-left: 8px;
+	font-size: 16px;
+	resize: vertical;
+	color: #444;
+}
+
+section#contato-main .container input[type=submit]{
+	background: white;
+	border: 3px solid rgb(24, 64, 112);
+	width: 100%;
+	height: 60px;
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(24, 64, 112);
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+section#contato-main .container input[type=submit]:hover {
+	color: white;
+	background: rgb(24, 64, 112);
+}
+
+section#contato-main .container input#whatsapp-consulta{
+	font-size: 40px;
+	font-family: FontAwesome !important;
+	color: #128c7e;
+	width: 100%;
+	border-color: #128c7e;
+	outline:none; 
+}
+
+section#contato-main .container input#whatsapp-consulta:hover {
+	background-color: #128c7e;
+	color: white;
+	border-color: #128c7e;
+	border-radius: 100px;
+}
+
+section#contato-main .container .form {
+	margin-top: 30px;
+}
+
+section#contato-main .container .localizacao {
+	text-align: center;
+}
+
+section#contato-main .container .localizacao .title {
+	margin-left: 40px;
+	width: 100%;
+}
+
+section#contato-main .container .localizacao .text {
+	margin-top: 40px;
+	margin-left: 60px;
+}
+
+section#contato-main .container .localizacao .text b {
+	line-height: 200%;
+}
+
+section#contato-main .container .localizacao .text span {
+	line-height: 200%;
+}
+
+/**Estilização Main Page**/
+
+header {
+	padding-bottom: 5px;
+	box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.15);
+	/*border-bottom: 2px solid rgb(0, 95, 168, 0.8);*/
+	z-index: 6;
+	position: relative;
+	height: 110px;
+	background-color: #fff;
+}
+
+.fa-phone-alt {
+	margin-left: -8px;
+}
+
+.sticky {
+  	position: fixed;
+  	top: 0;
+  	width: 100%;
+}
+
+.sticky + .container-principal{
+  padding-top: 70px;
+}
+
+header .logo {
+	max-width: 110px;
+	margin-left: 50px;
+	margin: 10px;
+	width: 100%;
+}
+
+.logo a {
+	color: #0089bd;
+
+}
+
+.mobile {
+	display: none;
+}
+
+header .menu-contact-main {
+	display: block;
+	margin-top: 1.5rem;
+}
+
+header .menu-contact {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 7px;
+	padding: 3px 25px;
+	font-size: 15px;
+	background-color: rgb(0, 100, 168);
+	border: 1px solid rgb(0, 100, 168);
+}
+
+header .menu-whatsapp {
+	font-size: 33px;
+	margin-top: -8px;
+	color: #128c7e;
+	width: 60px;
+	cursor: pointer;
+	
+}
+
+header .menu-whatsapp a {
+	color: #128c7e;
+	text-decoration: none;
+}
+
+header .menu-contact-place {
+	position: absolute;
+	top: 72%; 
+	margin-left: 60px;
+}
+
+header .menu-contact-place p {
+	font-size: 14px;
+	font-weight: 300;
+	color: #000;
+}
+
+header .desktop-menu {
+	margin: 1rem;
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%,-50%);
+}
+
+header .phone {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 150%;
+	padding-left: 15px;
+	vertical-align: middle;
+	color: #fff;
+	font-family: 'Heebo', sans-serif;
+}
+
+nav.desktop {
+	margin-top: 1rem;
+	left: 50%;
+}
+
+nav.desktop ul {
+	list-style-type: none;
+	position: relative;
+}
+
+nav.desktop li {
+	font-weight: 400;
+	font-size: 16px;
+	padding: 5px 20px;
+	display: inline-block;
+}
+
+nav.desktop li .main-menu {
+	color: rgb(0, 60, 168);
+	text-decoration: none;
+	transition: 0.2s;
+	padding: 8px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+nav.desktop li .main-menu:hover {
+	color: #fff;
+	background: rgb(0, 100, 168);
+}
+
+section.banner-container {
+	width: 100%;
+	height: 650px;
+	position: relative;
+	
+}
+
+.banner-single {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	min-height: 500px; 
+  	background-attachment: fixed;
+ 	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+section.banner-container .banner-text {
+	max-width: 600px; 
+	z-index: 3;
+	position: absolute;
+	left: 5%;
+	text-align: left;
+	top: 30%;
+}
+
+section.banner-container p.banner-bold {
+	color: rgb(0, 60, 168);
+	font-weight: bold;
+	font-size: 28px;
+}
+
+section.banner-container p.banner-not-bold1 {
+	color: rgb(0, 80, 168);
+	font-weight: 300;
+	padding-top: 17px;
+	font-size: 22px;
+	
+}
+
+section.banner-container p.banner-not-bold2 {
+	color: rgb(0, 80, 168);
+	font-weight: 300;
+	font-size: 22px;
+	
+}
+
+section.banner-container .banner-divider {
+	border-bottom: 3px solid rgb(0, 60, 168);
+	max-width: 135px;
+	padding-top: 17px;
+	--animate-duration: 2.5s;
+}
+
+section#tratamentos-destaque {
+	padding: 25px 0;
+}
+
+section#tratamentos-destaque h2 {
+	font-size: 40px;
+	font-weight: 400;
+	color: rgb(24, 64, 112);
+	text-align: center;
+}
+
+section#tratamentos-destaque h3 {
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 150%;
+	margin: 8px 0;
+	color: #3895D3;
+	text-align: center;
+}
+
+section#tratamentos-destaque .divider {
+	border-bottom: 2px solid rgb(0, 95, 168);
+	max-width: 54px;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	position: absolute;
+	width: 100%;
+	left: 50%;
+}
+
+section#tratamentos-destaque .tratamento-nome {
+	text-align: center;
+	padding-top: 40px;
+}
+
+section#tratamentos-destaque .tratamento-nome a {
+	font-size: 25px;
+	font-weight: 400;
+	color: rgb(24, 64, 112);
+}
+
+section#tratamentos-destaque p{
+	font-size: 16px;
+	color: #444;
+	font-weight: 300;
+	margin-top: 10px;
+}
+
+section#tratamentos-destaque .container {
+	padding: 0;
+	padding: 0 12%;
+}
+
+section#tratamentos-destaque .container .element {
+	margin: 60px 0;
+	padding: 0 30px;
+	text-align: center;
+}
+
+section#tratamentos-destaque .container .element h4 {
+	font-weight: 400;
+	font-size: 26px;
+	color: rgb(24, 64, 112);
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+section#tratamentos-destaque .container .element img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	transition: transform .2s;
+}
+
+section#tratamentos-destaque .container .element img:hover {
+	transform: scale(1.2); 
+}
+
+
+section#tratamentos-destaque .container .element p {
+	color: #7e7e7e;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+section#consulta-home .consulta-content {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	min-height: 500px; 
+  	background-attachment: fixed;
+ 	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	
+}
+
+section#consulta-home .consulta-content .container { 
+	left: 8%;
+	top: 20%;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 30px 50px;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	border-radius: 2px;
+}
+
+section#consulta-home .consulta-content .container h3 { 
+	font-weight: 400;
+	color: #b6e2ff;
+	font-size: 26px;
+	color: white;
+}
+
+section#consulta-home .consulta-content .container h2 { 
+	color: #aabbff;
+	font-weight: 700;
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 5px;
+	color: #b6e2ff;
+}
+
+section#consulta-home .consulta-content .container #block {
+	margin: 15px 0;
+	padding-top: 15px;
+	width: 100%;
+	text-align: center;
+}
+
+section#consulta-home .consulta-content .container a{
+	background: rgba(0, 0, 0, 0.0);
+	border: 3px solid white;
+	width: 100%;
+	height: 60px;
+	font-size: 15px;
+	text-decoration: none;
+	padding: 15px;
+	font-weight: 700;
+	color: white;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+section#consulta-home .consulta-content .container a:hover {
+	color: rgba(0, 0, 0, 1);
+	background: white;
+}
+
+section#consulta-marcar-home .consulta-content {
+	padding: 40px 0;
+	background-color: rgba(244, 244, 244, 1);
+}
+
+section#consulta-marcar-home .consulta-content .text p  {
+	color: rgb(24, 64, 112);
+	font-size: 18px;
+	font-weight: 300;
+	padding: 20px 0;
+}
+
+section#consulta-marcar-home .consulta-content .text span {
+	font-weight: 400;
+	font-size: 35px;
+	color: rgb(0, 100, 168);
+}
+
+section#consulta-marcar-home .consulta-content input[type=text], section#consulta-marcar-home .consulta-content input[type=email], section#consulta-marcar-home .consulta-content input[type=tel] {
+	width: 100%;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	max-width: 800px;
+	height: 40px;
+	padding-left: 8px;
+	font-size: 16px;
+	color: #444;
+}
+
+section#consulta-marcar-home .consulta-content textarea {
+	width: 100%;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	max-width: 800px;
+	height: 120px;
+	padding: 8px;
+	padding-left: 8px;
+	font-size: 16px;
+	resize: vertical;
+	color: #444;
+}
+
+section#consulta-marcar-home .consulta-content input[type=submit]{
+	background: white;
+	border: 3px solid rgb(24, 64, 112);
+	width: 100%;
+	height: 60px;
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(24, 64, 112);
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+section#consulta-marcar-home .consulta-content input[type=submit]:hover {
+	color: white;
+	background: rgb(24, 64, 112);
+}
+
+section#consulta-marcar-home .consulta-content input#whatsapp-consulta{
+	font-size: 40px;
+	font-family: FontAwesome !important;
+	color: #128c7e;
+	width: 100%;
+	border-color: #128c7e;
+	outline:none; 
+}
+
+section#consulta-marcar-home .consulta-content input#whatsapp-consulta:hover {
+	background-color: #128c7e;
+	color: white;
+	border-color: #128c7e;
+	border-radius: 100px;
+}
+
+section#consulta-marcar-home .consulta-content .servicos-map {
+	padding: 50px;
+}
+
+section#clinica {
+	padding: 50px 0;
+}	
+
+section#clinica h2 {
+	font-size: 36px;
+    font-weight: 400;
+    color: rgb(24, 64, 112);
+}
+
+section#clinica h3 {
+	font-size: 15px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #3895D3;
+}
+
+section#clinica img {
+	padding: 0 50%;
+	box-sizing: content-box;
+}
+
+section#clinica .container {
+	width: 40%;
+}
+
+section#clinica p {
+	padding-top: 20px;
+	text-align: justify;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+footer {
+	background: rgba(40, 65, 100, 1);
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.pre-footer {
+	background: rgba(40, 80, 128, 1);
+	padding: 30px;
+	color: white;
+	text-align: center;
+}
+
+.pre-footer .box-footer .box-horario {
+	padding-top: 15px;	
+	padding: 15px 0;
+}
+
+.pre-footer .box-footer #rede-social {
+	font-size: 30px;	
+}
+
+.fa-whatsapp {
+	padding: 10px;
+}
+
+.pre-footer .box-footer #zap {
+	margin-top: 40px;
+}
+
+.pre-footer .box-footer #zap a {
+	border: 2px solid white;
+	font-size: 15px;
+	padding: 10px;
+	transition: 0.2s;
+}
+
+.pre-footer .box-footer #zap a:hover {
+	background-color: white;
+	color: #404580;
+}
+
+.pre-footer .box-footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.pre-footer .box-footer img {
+	width: 150px;
+}
+
+.pre-footer .box-footer h2 {
+	font-size: 22px;
+	font-weight: bold;
+	padding-bottom: 15px;
+		
+}
+
+.pre-footer .box-footer h3 {
+	font-size: 16px;
+		
+}
+
+.pre-footer .box-footer p {
+	font-size: 16px;
+	font-weight: 200;
+		
+}
+
+.pre-footer .footer-endereço span {
+
+	font-size: 22px;
+	font-weight: bold;
+
+}
+
+.pre-footer .footer-endereço b {
+	display: table-row;
+	font-size: 18px;
+	font-weight: 400;
+
+}
+
+footer.fixed {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	font-size: 11px;
+	font-weight: 400;
+	
+}
+
+section.erro-404 h2 {
+	text-align: center;
+	color: #444;
+	font-size: 28px;
+	font-weight: 400;
+	border-top: 2px solid #444;
+}
+
+section.erro-404 p {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 16px;
+	color: #444;
+	font-weight: 300;
+}
+
+section.erro-404 a {
+	color: #444;
+}
+
+.wraper-404 {
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	position: absolute;
+	width: 100%;
+	left: 50%;
+	padding: 0 2%;
+	text-align: center;
+	max-width: 1280px;
+	top: 50%;
+}
+
+#map {
+	width: 100%;
+	height: 400px;
+}
+
+.freepik-att {
+	text-align: center;
+}
+
+.freepik-att a {
+	color: white;
+	font-size: 10px;
+}
+
+section#creditos-main .container {
+	padding: 40px 4.2%;
+}
+
+@media screen and (max-width: 850px) {
+
+	section#clinica img {
+		padding: 0;
+	}
+
+}
+
+@media screen and (max-width: 850px) {
+
+	.mobile {
+		display: block;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	img {
+		float: none !important;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.w50 {
+		width: 100%;
+		padding: 20px;
+	}
+
+	.w33 {
+		padding: 20px;
+		width: 100%;
+	}
+
+	nav.desktop {
+		display: none;
+	}
+
+	nav.mobile {
+		display: block;
+	}
+
+	.botao-menu-mobile {
+		font-size: 24px;
+		cursor: pointer;
+		color: rgb(0, 95, 168);
+		margin: 20px 10px;
+
+	}
+
+	nav.mobile ul {
+		display: none;
+		position: absolute;
+		left: 0;
+		top: 55px;
+		width: 100%;
+		z-index: 3;
+		text-align: center;
+		box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.5);
+	}
+
+	nav.mobile li {
+		font-weight: 400;
+		font-size: 15px;
+		display: block;
+		background: white;
+		border-bottom: 1px solid #ccc;
+		font-size: 17px;
+		padding: 8px;
+	}
+
+	nav.mobile li a {
+		display: block;
+		color: #444;
+		text-decoration: none;
+		transition: 0.4s;
+	}
+
+	nav.mobile li a:hover {
+		color: rgb(0, 95, 168);
+	}
+
+	header .menu-contact-main {
+		display: none;
+	}
+
+	section#servicos-main .servicos-content {
+		text-align: center;
+	}
+
+	section#servicos-main .consulta-content{
+		text-align: center;
+	}
+
+	section#servicos-main .consulta-content .image-container {
+		display: none;
+	}
+
+	section#servicos-main .servicos-content .element {
+		padding-top: 30px;
+		padding-bottom: 60px;
+	}
+
+	section#servicos-main .servicos-content .element .text p {
+		width: 100%;
+		margin: 0;
+	}
+
+	section#servicos-main .servicos-content .element .saiba-mais {
+		left: 50%;
+		transform: translateX(-50%);
+		position: absolute;
+	}
+
+	section#servicos-main .consulta-content input#whatsapp-consulta {
+		margin: 0;
+	}
+
+	section#contato-main .container .localizacao .title {
+	    margin-left: 0;
+	    width: 100%;
+	}
+
+	section#contato-main .container .localizacao .text {
+	    margin-left: 0;
+	}
+
+	section#contato-main .container .title .divider, section#contato-main .container .localizacao .title .divider {
+	    left: 46%;
+	}
+
+	section#clinica .container {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+
+	section#clinica h2 {
+	    text-align: center;
+	}
+
+	section#clinica h3 {
+	    text-align: center;
+	}
+}
