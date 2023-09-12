@@ -59,7 +59,7 @@
 <script>
     $(".form-enviar").click(function() {
 		var arrayForm = $('form').serializeArray();
-		var redirectWindow = window.open('https://wa.me/557592629999?text=Gostaria%20de%20mandar%20uma%20mensagem%21%0A%0ANome%3A%20'+arrayForm[0].value+'%0ATelefone%3A%20'+arrayForm[1].value+'%0AMensagem%3A%20'+arrayForm[2].value+'', '_blank');
+		var redirectWindow = window.open('https://wa.me/557532216004?text=Gostaria%20de%20mandar%20uma%20mensagem%21%0A%0ANome%3A%20'+arrayForm[0].value+'%0ATelefone%3A%20'+arrayForm[1].value+'%0AMensagem%3A%20'+arrayForm[2].value+'', '_blank');
     	redirectWindow.location;
 	});
 </script>

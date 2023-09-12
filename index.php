@@ -67,7 +67,7 @@
 
 			<div class="menu-contact-main right">
 				<div class="menu-contact-place"><p>R. Cel. Álvaro Simões, 52 - Centro</p></div>
-				<div class="menu-whatsapp left"><a href="https://wa.me/557592629999" target="_blank"><i class="fab fa-whatsapp"></i></a></div>
+				<div class="menu-whatsapp left"><a href="https://wa.me/557532216004" target="_blank"><i class="fab fa-whatsapp"></i></a></div>
 				<div class="menu-contact right"><i class="fas fa-phone-alt" style="color: #fff"></i><a class="phone">(75) 3221-6004<br>(75) 3603-8741</a></div>
 			</div>
 
@@ -128,6 +128,10 @@
 					<h3>Seg - Sex</h3>
 					<p>8:00 - 12:00</p>
 					<p>14:00 - 18:00</p>
+				</div>
+				<div class="box-horario">
+					<h3>Sábado</h3>
+					<p>8:00 - 12:00</p>
 				</div>
 				<div class="box-horario">
 					<h3>Domingo</h3>
